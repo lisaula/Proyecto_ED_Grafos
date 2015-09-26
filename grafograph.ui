@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>838</width>
-    <height>538</height>
+    <height>571</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -232,7 +232,7 @@
   <widget class="QPushButton" name="Prim">
    <property name="geometry">
     <rect>
-     <x>710</x>
+     <x>720</x>
      <y>430</y>
      <width>101</width>
      <height>41</height>
@@ -245,7 +245,7 @@
   <widget class="QPushButton" name="Kruskal">
    <property name="geometry">
     <rect>
-     <x>710</x>
+     <x>720</x>
      <y>480</y>
      <width>101</width>
      <height>41</height>
@@ -292,6 +292,42 @@
    </property>
    <property name="text">
     <string>Dirigido</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>430</y>
+     <width>20</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="init">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>540</y>
+     <width>47</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="origen">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>540</y>
+     <width>80</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Origen</string>
    </property>
   </widget>
  </widget>
